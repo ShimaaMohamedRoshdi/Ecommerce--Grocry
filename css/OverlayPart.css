@@ -1,0 +1,918 @@
+
+/* page el coffes */
+.page-coffe{
+    background-image:url('../imagess/bg.webp') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  .overlay {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
+
+.text {
+    position: relative; 
+    z-index: 2; 
+   
+}
+  .other-pages {
+    display: flex;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    background-color: #f8f9fa; 
+    text-align: center; 
+}
+
+.header-otherPages h3 {
+    margin-bottom: 20px;
+    font-size: 24px; 
+    color: #fff; 
+}
+
+.links-otherPages {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.links-otherPages a {
+    color: #fff; 
+    text-decoration: none; 
+    margin: 0 10px;
+    font-size: 18px; 
+    transition: color 0.3s; 
+}
+
+.links-otherPages a:hover {
+    color: #218838;
+}
+
+.links-otherPages i {
+    font-size: 20px;
+    margin: 0 10px; 
+    color: #fff; 
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .header-otherPages h3 {
+        font-size: 20px; 
+    }
+
+    .links-otherPages a {
+        font-size: 16px; 
+        margin: 0 5px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .header-otherPages h3 {
+        font-size: 18px; 
+    }
+
+    .links-otherPages {
+        flex-direction: column; 
+    }
+
+    .links-otherPages a {
+        margin: 5px 0; 
+    }
+}
+
+/* page el FRUIT */
+
+
+.page-juice{
+    background-image:url('../imagess/Juice_and_Syrup.webp') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  .overlay {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
+
+.text {
+    position: relative; 
+    z-index: 2; 
+   
+}
+  .other-pages {
+    display: flex;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    background-color: #f8f9fa; 
+    text-align: center; 
+}
+
+.header-otherPages h3 {
+    margin-bottom: 20px;
+    font-size: 24px; 
+    color: #fff; 
+}
+
+.links-otherPages {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.links-otherPages a {
+    color: #fff; 
+    text-decoration: none; 
+    margin: 0 10px;
+    font-size: 18px; 
+    transition: color 0.3s; 
+}
+
+.links-otherPages a:hover {
+    color: #218838;
+}
+
+.links-otherPages i {
+    font-size: 20px;
+    margin: 0 10px; 
+    color: #fff; 
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .header-otherPages h3 {
+        font-size: 20px; 
+    }
+
+    .links-otherPages a {
+        font-size: 16px; 
+        margin: 0 5px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .header-otherPages h3 {
+        font-size: 18px; 
+    }
+
+    .links-otherPages {
+        flex-direction: column; 
+    }
+
+    .links-otherPages a {
+        margin: 5px 0; 
+    }
+}
+
+/* PAGE EL SNAKES */
+
+.page-snakes{
+    background-image:url('../imagess/bg\ snacks.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  .overlay {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
+
+.text {
+    position: relative; 
+    z-index: 2; 
+   
+}
+  .other-pages {
+    display: flex;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    background-color: #f8f9fa; 
+    text-align: center; 
+}
+
+.header-otherPages h3 {
+    margin-bottom: 20px;
+    font-size: 24px; 
+    color: #fff; 
+}
+
+.links-otherPages {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.links-otherPages a {
+    color: #fff; 
+    text-decoration: none; 
+    margin: 0 10px;
+    font-size: 18px; 
+    transition: color 0.3s; 
+}
+
+.links-otherPages a:hover {
+    color: #218838;
+}
+
+.links-otherPages i {
+    font-size: 20px;
+    margin: 0 10px; 
+    color: #fff; 
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .header-otherPages h3 {
+        font-size: 20px; 
+    }
+
+    .links-otherPages a {
+        font-size: 16px; 
+        margin: 0 5px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .header-otherPages h3 {
+        font-size: 18px; 
+    }
+
+    .links-otherPages {
+        flex-direction: column; 
+    }
+
+    .links-otherPages a {
+        margin: 5px 0; 
+    }
+}
+
+/* PAGE EL MEAT */
+
+
+.page-meat{
+    background-image:url(../imagess/meat.jpeg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  .overlay {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
+
+.text {
+    position: relative; 
+    z-index: 2; 
+   
+}
+  .other-pages {
+    display: flex;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    background-color: #f8f9fa; 
+    text-align: center; 
+}
+
+.header-otherPages h3 {
+    margin-bottom: 20px;
+    font-size: 24px; 
+    color: #fff; 
+}
+
+.links-otherPages {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.links-otherPages a {
+    color: #fff; 
+    text-decoration: none; 
+    margin: 0 10px;
+    font-size: 18px; 
+    transition: color 0.3s; 
+}
+
+.links-otherPages a:hover {
+    color: #218838;
+}
+
+.links-otherPages i {
+    font-size: 20px;
+    margin: 0 10px; 
+    color: #fff; 
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .header-otherPages h3 {
+        font-size: 20px; 
+    }
+
+    .links-otherPages a {
+        font-size: 16px; 
+        margin: 0 5px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .header-otherPages h3 {
+        font-size: 18px; 
+    }
+
+    .links-otherPages {
+        flex-direction: column; 
+    }
+
+    .links-otherPages a {
+        margin: 5px 0; 
+    }
+}
+
+/* PAGE EL FRUIT */
+
+.page-fruit{
+    background-image:url('../imagess/84237.png') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  .overlay {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
+
+.text {
+    position: relative; 
+    z-index: 2; 
+   
+}
+  .other-pages {
+    display: flex;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    background-color: #f8f9fa; 
+    text-align: center; 
+}
+
+.header-otherPages h3 {
+    margin-bottom: 20px;
+    font-size: 24px; 
+    color: #fff; 
+}
+
+.links-otherPages {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.links-otherPages a {
+    color: #fff; 
+    text-decoration: none; 
+    margin: 0 10px;
+    font-size: 18px; 
+    transition: color 0.3s; 
+}
+
+.links-otherPages a:hover {
+    color: #218838;
+}
+
+.links-otherPages i {
+    font-size: 20px;
+    margin: 0 10px; 
+    color: #fff; 
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .header-otherPages h3 {
+        font-size: 20px; 
+    }
+
+    .links-otherPages a {
+        font-size: 16px; 
+        margin: 0 5px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .header-otherPages h3 {
+        font-size: 18px; 
+    }
+
+    .links-otherPages {
+        flex-direction: column; 
+    }
+
+    .links-otherPages a {
+        margin: 5px 0; 
+    }
+}
+
+/* PAGE EL VEGETABLES */
+
+.page-vegetables{
+    background-image:url('../imagess/slider__index\ 1.png') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  .overlay {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
+
+.text {
+    position: relative; 
+    z-index: 2; 
+   
+}
+  .other-pages {
+    display: flex;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    background-color: #f8f9fa; 
+    text-align: center; 
+}
+
+.header-otherPages h3 {
+    margin-bottom: 20px;
+    font-size: 24px; 
+    color: #fff; 
+}
+
+.links-otherPages {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.links-otherPages a {
+    color: #fff; 
+    text-decoration: none; 
+    margin: 0 10px;
+    font-size: 18px; 
+    transition: color 0.3s; 
+}
+
+.links-otherPages a:hover {
+    color: #218838;
+}
+
+.links-otherPages i {
+    font-size: 20px;
+    margin: 0 10px; 
+    color: #fff; 
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .header-otherPages h3 {
+        font-size: 20px; 
+    }
+
+    .links-otherPages a {
+        font-size: 16px; 
+        margin: 0 5px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .header-otherPages h3 {
+        font-size: 18px; 
+    }
+
+    .links-otherPages {
+        flex-direction: column; 
+    }
+
+    .links-otherPages a {
+        margin: 5px 0; 
+    }
+}
+
+/* page el Dairy */
+
+.page-Dairy{
+    background-image:url('../imagess/bg.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  .overlay {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
+
+.text {
+    position: relative; 
+    z-index: 2; 
+   
+}
+  .other-pages {
+    display: flex;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    background-color: #f8f9fa; 
+    text-align: center; 
+}
+
+.header-otherPages h3 {
+    margin-bottom: 20px;
+    font-size: 24px; 
+    color: #fff; 
+}
+
+.links-otherPages {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.links-otherPages a {
+    color: #fff; 
+    text-decoration: none; 
+    margin: 0 10px;
+    font-size: 18px; 
+    transition: color 0.3s; 
+}
+
+.links-otherPages a:hover {
+    color: #218838;
+}
+
+.links-otherPages i {
+    font-size: 20px;
+    margin: 0 10px; 
+    color: #fff; 
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .header-otherPages h3 {
+        font-size: 20px; 
+    }
+
+    .links-otherPages a {
+        font-size: 16px; 
+        margin: 0 5px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .header-otherPages h3 {
+        font-size: 18px; 
+    }
+
+    .links-otherPages {
+        flex-direction: column; 
+    }
+
+    .links-otherPages a {
+        margin: 5px 0; 
+    }
+}
+ /* page el soda drinks */
+ 
+.page-soda{
+    background-image:url('../imagess/Diet_Beverages.webp') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  .overlay {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
+
+.text {
+    position: relative; 
+    z-index: 2; 
+   
+}
+  .other-pages {
+    display: flex;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    background-color: #f8f9fa; 
+    text-align: center; 
+}
+
+.header-otherPages h3 {
+    margin-bottom: 20px;
+    font-size: 24px; 
+    color: #fff; 
+}
+
+.links-otherPages {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.links-otherPages a {
+    color: #fff; 
+    text-decoration: none; 
+    margin: 0 10px;
+    font-size: 18px; 
+    transition: color 0.3s; 
+}
+
+.links-otherPages a:hover {
+    color: #218838;
+}
+
+.links-otherPages i {
+    font-size: 20px;
+    margin: 0 10px; 
+    color: #fff; 
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .header-otherPages h3 {
+        font-size: 20px; 
+    }
+
+    .links-otherPages a {
+        font-size: 16px; 
+        margin: 0 5px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .header-otherPages h3 {
+        font-size: 18px; 
+    }
+
+    .links-otherPages {
+        flex-direction: column; 
+    }
+
+    .links-otherPages a {
+        margin: 5px 0; 
+    }
+}
+/* Page el conatct us */
+ 
+.page-contact{
+    background-image:url('../imagess/imgcontact/single-banner.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  .overlay {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
+
+.text {
+    position: relative; 
+    z-index: 2; 
+   
+}
+  .other-pages {
+    display: flex;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    background-color: #f8f9fa; 
+    text-align: center; 
+}
+
+.header-otherPages h3 {
+    margin-bottom: 20px;
+    font-size: 24px; 
+    color: #fff; 
+}
+
+.links-otherPages {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.links-otherPages a {
+    color: #fff; 
+    text-decoration: none; 
+    margin: 0 10px;
+    font-size: 18px; 
+    transition: color 0.3s; 
+}
+
+.links-otherPages a:hover {
+    color: #218838;
+}
+
+.links-otherPages i {
+    font-size: 20px;
+    margin: 0 10px; 
+    color: #fff; 
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .header-otherPages h3 {
+        font-size: 20px; 
+    }
+
+    .links-otherPages a {
+        font-size: 16px; 
+        margin: 0 5px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .header-otherPages h3 {
+        font-size: 18px; 
+    }
+
+    .links-otherPages {
+        flex-direction: column; 
+    }
+
+    .links-otherPages a {
+        margin: 5px 0; 
+    }
+}
+/* Page el blog */
+
+.page-blog{
+    background-image:url('../imagess/Blog/single-banner\ \(1\).jpg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  .overlay {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
+
+.text {
+    position: relative; 
+    z-index: 2; 
+   
+}
+  .other-pages {
+    display: flex;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    background-color: #f8f9fa; 
+    text-align: center; 
+}
+
+.header-otherPages h3 {
+    margin-bottom: 20px;
+    font-size: 24px; 
+    color: #fff; 
+}
+
+.links-otherPages {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.links-otherPages a {
+    color: #fff; 
+    text-decoration: none; 
+    margin: 0 10px;
+    font-size: 18px; 
+    transition: color 0.3s; 
+}
+
+.links-otherPages a:hover {
+    color: #218838;
+}
+
+.links-otherPages i {
+    font-size: 20px;
+    margin: 0 10px; 
+    color: #fff; 
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .header-otherPages h3 {
+        font-size: 20px; 
+    }
+
+    .links-otherPages a {
+        font-size: 16px; 
+        margin: 0 5px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .header-otherPages h3 {
+        font-size: 18px; 
+    }
+
+    .links-otherPages {
+        flex-direction: column; 
+    }
+
+    .links-otherPages a {
+        margin: 5px 0; 
+    }
+}

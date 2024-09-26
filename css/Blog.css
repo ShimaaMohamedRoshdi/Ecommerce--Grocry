@@ -1,0 +1,259 @@
+
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Blog Layout */
+.blog-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blog-posts {
+    flex: 2;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  
+}
+.col__admin i{
+    font-size: 20px;
+    color: green;
+}
+.col__admin span{
+    font-size: 15px;
+    font-weight: bold;
+}
+.text__cardBlog p{
+    margin-top: 15px;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.row.blog-posts {
+    margin-bottom: 10px; /* Space between different rows of blog posts */
+}
+
+.card__blog {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+   
+    height: 470px; /* Adjust height as needed */
+    width: calc(50% - 10px); 
+
+}
+
+.img__blog img {
+    width: 100%;
+    height: auto;
+}
+
+.text__cardBlog {
+    padding: 15px;
+}
+
+.text__cardBlog a {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.text__cardBlog a:hover {
+    color: #007BFF;
+}
+
+.admin {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.sidebar {
+    flex: 1;
+    margin-left: 20px;
+}
+
+/* Sidebar Styles */
+.card-blog {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.card-blog h3 {
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+.item {
+    display: flex;
+    margin-bottom: 20px;
+}
+.popular__items ul li a{
+    font-size: 15px;
+   
+}
+.categories__items li span{
+    font-size: 15px;
+   
+}
+.categories__items {
+    padding: 10px;
+}
+.popular__items{
+    padding: 10px;
+}
+
+.item__img img {
+    width: 120px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.item__text {
+    margin-left: 10px;
+}
+.item__text p{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.item__text a {
+    font-weight: bold;
+    color: #333;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.item__text a:hover {
+    color: green;
+}
+
+.social__media ul {
+    display: flex;
+    list-style: none;
+ 
+}
+
+.social__media li {
+    margin-right: 10px;
+    font-size: 25px;
+ 
+}
+.social__media li i{
+    color: green;
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .blog-posts {
+        flex-direction: column; /* Stack blog posts on smaller screens */
+    }
+    .card__blog {
+        width: 100%; /* Full width on small screens */
+    }
+    .sidebar {
+        margin-left: 0;
+        margin-top: 20px; /* Add spacing above the sidebar */
+    }
+}
+
+@media (max-width: 480px) {
+    .text__cardBlog a {
+        font-size: 16px;
+         /* Adjust font size for mobile */
+    }
+    .card__blog {
+        height: 250px; /* Smaller height for smaller screens */
+        width: 100%; /* Full width on smaller screens */
+        margin: 0 0 10px; /* Vertical margin for spacing */
+    }
+}
+@media (max-width: 768px) {
+    .card__blog {
+        margin: auto;
+        height: 250px; /* Smaller height for smaller screens */
+        width: 100%; /* Full width on smaller screens */
+        margin: 0 0 10px; /* Vertical margin for spacing */
+    }
+}
+
+@media (max-width: 768px) {
+    .card__blog {
+        width: calc(100% - 10px); /* Full width on smaller screens */
+        height: auto; /* Allow height to adjust based on content */
+    }
+
+    .text__cardBlog {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    aside {
+        width: 100%; /* Full width for aside on smaller screens */
+    }
+
+    .good-health img {
+        width: 100%; /* Responsive image for Good Health */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
+
+@media (max-width: 480px) {
+    .card__blog {
+        padding: 5px; /* Less padding on very small screens */
+    }
+
+    aside {
+        padding: 10px; /* Adjust padding for small screens */
+    }
+}
+/* Tablet responsive adjustments */
+@media (max-width: 1024px) {
+    .card__blog {
+        width: calc(50% - 10px); /* Maintain two columns on tablet */
+        height: auto; /* Allow height to adjust based on content */
+    }
+
+    aside {
+        width: 100%; /* Full width for aside on tablet */
+    }
+
+    .good-health img {
+        width: 80%; /* Slightly smaller on tablet */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
+
+/* Additional responsive adjustments for mobile */
+@media (max-width: 768px) {
+    .card__blog {
+        width: calc(100% - 10px); /* Full width on smaller screens */
+    }
+
+    .text__cardBlog {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    aside {
+        width: 100%; /* Full width for aside on smaller screens */
+    }
+
+    .good-health img {
+        width: 100%; /* Full width for Good Health */
+    }
+}
+
+@media (max-width: 480px) {
+    .card__blog {
+        padding: 5px; /* Less padding on very small screens */
+    }
+
+    aside {
+        padding: 10px; /* Adjust padding for small screens */
+    }
+}
